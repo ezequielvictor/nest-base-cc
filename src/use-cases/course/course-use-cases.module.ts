@@ -8,4 +8,4 @@ import { CourseUseCases } from './course.use-case';
   providers: [CourseFactoryService, CourseUseCases],
   exports: [CourseFactoryService, CourseUseCases],
 })
-export class CourseMoule {}
+export class CourseUseCasesModule {}
